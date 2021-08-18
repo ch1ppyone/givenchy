@@ -8,7 +8,7 @@ const concat = require("gulp-concat");
 const map = require("gulp-sourcemaps");
 
 gulp.task("css:build", function () {
-  return src("src/blocks/**/*.scss")
+  return src("src/index.scss")
     .pipe(map.init())
     .pipe(bulk())
     .pipe(sass())
