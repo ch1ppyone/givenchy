@@ -1,0 +1,14 @@
+.about__qoute-author {
+  margin: 24px 0 0 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .about__qoute-author {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

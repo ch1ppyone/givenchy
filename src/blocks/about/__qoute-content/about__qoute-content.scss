@@ -1,0 +1,10 @@
+.about__qoute-content {
+  position: absolute;
+}
+
+
+@media screen and (max-width: 767px) {
+  .about__qoute-content{
+    position: relative;
+  }
+}

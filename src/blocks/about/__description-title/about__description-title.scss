@@ -1,0 +1,23 @@
+.about__description-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .about__description-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__description-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
