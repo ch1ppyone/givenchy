@@ -1,0 +1,19 @@
+.header__image {
+  position: relative;
+  width: 700px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .header__image{
+    width: 486px;
+    height: 646px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__image{
+    width: 320px;
+    height: 426px;
+  }
+}

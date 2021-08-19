@@ -1,0 +1,19 @@
+.header {
+  background-color: $light-gray;
+  max-height: 900px;
+  position: relative;
+  display: flex;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .header {
+    max-height: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header  {
+    max-height:426px;
+  }
+}
