@@ -1,0 +1,20 @@
+.header__title-container {
+  position: absolute;
+  top: 310px;
+  left: 696px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__title-container {
+    top: 223px;
+    left: 263px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__title-container {
+    top: 111px;
+    left: 20px;
+  }
+}
