@@ -20,5 +20,5 @@ gulp.task("css:build", function () {
 
 
 gulp.task('watch', function () {
-  gulp.watch("src/blocks/**/*.scss", gulp.series('css:build'));
+  gulp.watch("src/**/*.scss", gulp.series('css:build'));
 });
