@@ -1,0 +1,24 @@
+.looks__gallery {
+  margin: 40px 0 0 0;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .looks__gallery {
+    grid-template-columns: 243px 243px 243px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .looks__gallery{
+    margin: 20px 0 0 0;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 1fr 1fr;
+  }
+}
