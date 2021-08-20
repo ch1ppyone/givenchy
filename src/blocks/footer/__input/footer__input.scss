@@ -1,0 +1,17 @@
+.footer__input {
+  width: 592px;
+  min-height: 48px;
+  border: 0.5px solid $white;
+  background-color: $black;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+
+.footer__input::placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $gray;
+
+
+}
