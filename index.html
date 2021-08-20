@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Givenchy</title>
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <div class="header__menu">
+          <div class="header__close-button"></div>
+          <nav>
+            <ul class="header__menu-items">
+              <li class="header__menu-item">
+                <a href="#about" class="header__menu-link">About</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#looks" class="header__menu-link">Looks</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#subscribe" class="header__menu-link">subscribe</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__burger-container">
+          <div class="header__burger"></div>
+          <p class="header__burger-text">MENU</p>
+        </div>
+        <img src="images/header.png" alt="" class="header__image" />
+        <div class="header__title-container">
+          <h1 class="header__title">
+            GIVENCHY <br />
+            SPRING SUMMER 2021 <br />
+            BY MATTHEW M. WILLIAMS
+          </h1>
+          <button class="header__button">Subscribe to collection’s news</button>
+        </div>
+      </header>
+      <section class="about" id="about">
+        <div class="about__description">
+          <h2 class="about__description-title">ABOUT</h2>
+          <p class="about__description-subtitle">
+            The Spring-Summer ‘21 collection explores Givenchy in the form of a
+            stream of consciousness for Williams and is a ‘sampler’ of what is
+            to come.
+          </p>
+        </div>
+        <div class="about__articles">
+          <article class="about__qoute slide_left">
+            <img
+              src="images/about_1.png"
+              alt=""
+              class="about__qoute-image about__qoute-image_min"
+            />
+            <div class="about__qoute-content">
+              <p class="about__qoute-text">
+                “To me, fashion expresses a point of view where formality and
+                informality, construction and comfort co-exist. My ethos is
+                about the luxury of infusing clothes with your own personality,
+                not being worn by them,”
+              </p>
+              <p class="about__qoute-author">Matthew M. Williams.</p>
+            </div>
+          </article>
+          <article class="about__article slide_right">
+            <img src="images/about_2.png" alt="" class="about__article-image" />
+            <p class="about__article-text">
+              Matthew M. Williams reveals his vision with help from an all-star
+              lineup of likeminded artists. The Creative Director called on
+              close friends in his tight-knit community of artists. Kendall
+              Jenner, Bella Hadid, Playboi Carti and the supermodels Anok Yai
+              and Liam Powers were each invited to put their own stamp on key
+              pieces, the better to highlight the importance of cultivating a
+              powerful personal style.
+            </p>
+          </article>
+          <article class="about__qoute slide_left">
+            <img
+              src="images/about_3.png"
+              alt=""
+              class="about__qoute-image about__qoute-image_max"
+            />
+            <div class="about__qoute-content">
+              <p class="about__qoute-text">
+                “In each of these portraits, a strong character wears a look
+                that reflects who they are: they’re the ones who bring the
+                clothes to life.”
+              </p>
+              <p class="about__qoute-author">Matthew M. Williams.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="looks" id="looks">
+        <h2 class="looks__title">LOOKS</h2>
+        <div class="looks__gallery">
+          <img src="images/1.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/2.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/3.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/4.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/5.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/6.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/7.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/8.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/9.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/10.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/11.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/12.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/13.png" alt="photo" class="looks__gallery-item" />
+          <img src="images/14.png" alt="photo" class="looks__gallery-item" />
+        </div>
+      </section>
+      <footer class="footer" id="footer">
+        <div class="footer__container">
+          <p class="footer__title">
+            Subscribe to the newsletterand be the first to know about new
+            collection’s drop date and news
+          </p>
+          <form action="#" method="post" class="footer__form">
+            <div class="footer__subscribe">
+              <input
+                type="text"
+                class="footer__input"
+                required
+                placeholder="Eneter your email  here"
+              />
+              <button class="footer__button" type="submit">Submit</button>
+            </div>
+            <div class="footer__agree">
+              <input
+                class="footer__checkbox"
+                type="checkbox"
+                id="subscribe"
+                name="subscribe"
+              />
+              <label class="footer__checkbox-label" for="subscribe"
+                >I consent to the processing of my data by GIVENCHY in
+                accordance with the conditions set forth in the Privacy
+                Policy</label
+              >
+            </div>
+          </form>
+          <p class="footer__copyright-text">
+            © 2021, Givenchy. Some rights reserved
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="js/header.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>

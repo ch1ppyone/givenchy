@@ -1,0 +1,21 @@
+.about__qoute-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  max-width: 700px;
+}
+
+@media screen and (max-width: 1417px) {
+  .about__qoute-text {
+    max-width: 364px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__qoute-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

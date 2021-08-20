@@ -1,0 +1,25 @@
+.looks__gallery {
+  margin: 40px auto 80px;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+}
+
+@media screen and (max-width: 1417px) {
+  .looks__gallery {
+    grid-template-columns: 243px 243px 243px;
+    max-width: 729px;
+    margin: 40px auto 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .looks__gallery {
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 1fr 1fr;
+    max-width: 280px;
+    margin: 20px auto 40px;
+  }
+}
