@@ -1,0 +1,18 @@
+.header__menu {
+  width: 480px;
+  height: 810px;
+  background-color: $black;
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 2;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .header__menu {
+    width: 320px;
+    height:  360px;
+  }
+}

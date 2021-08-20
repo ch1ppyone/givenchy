@@ -1,0 +1,10 @@
+.header__menu-items {
+  padding: 245px 0 0 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-items{
+    padding: 72px 0 0 0;
+  }
+}

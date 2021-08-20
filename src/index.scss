@@ -3,6 +3,11 @@
 @import "./vendor/vars.scss";
 @import "./blocks/page/page.scss";
 @import "./blocks/header/header.scss";
+@import "./blocks/header/__menu/header__menu.scss";
+@import "./blocks/header/__close-button/header__close-button.scss";
+@import "./blocks/header/__menu-items/header__menu-items.scss";
+@import "./blocks/header/__menu-item/header__menu-item.scss";
+@import "./blocks/header/__menu-link/header__menu-link.scss";
 @import "./blocks/header/__burger-container/header__burger-container.scss";
 @import "./blocks/header/__burger/header__burger.scss";
 @import "./blocks/header/__burger__text/header__burger-text.scss";

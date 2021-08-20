@@ -1,0 +1,17 @@
+.header__close-button {
+  background-image: url("../../../../images/close.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  border: none;
+  margin: 20px 0 0 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__close-button {
+    width: 24px;
+    height: 24px;
+  }
+}
