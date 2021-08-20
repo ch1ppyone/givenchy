@@ -1,29 +1,26 @@
-.looks__gallery-item
-{
+.looks__gallery-item {
   width: 350px;
   height: 436px;
   display: block;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1417px) {
   .looks__gallery-item {
     width: 243px;
     height: 302px;
   }
 
   .looks__gallery-item:nth-child(4n) {
-   display: none;
+    display: none;
   }
-
 }
 
 @media screen and (max-width: 767px) {
   .looks__gallery-item {
     width: 140px;
     height: 174px;
-
   }
   .looks__gallery-item:nth-child(4n) {
     display: block;
-   }
+  }
 }

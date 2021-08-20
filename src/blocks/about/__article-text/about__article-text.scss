@@ -5,6 +5,12 @@
   margin-left: 82px;
 }
 
+@media screen and (max-width: 1417px) {
+  .about__article-text {
+    max-width: 373px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .about__article-text {
     margin: 0;

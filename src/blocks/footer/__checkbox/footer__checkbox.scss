@@ -11,20 +11,26 @@
 
 .footer__checkbox + label::before {
   content: "";
-  background-image: url("../../../../images/chk_empty_white.svg");
   width: 20px;
   height: 20px;
+  border: 1px solid $gray;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.footer__checkbox:checked + label::before {
+  width: 20px;
+  height: 20px;
+  background-image: url("/images/check_black.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.footer__checkbox:checked + label::before {
-  content: "";
-  background-image: url("../../../../images/chk_active_white.svg");
-  width: 20px;
-  height: 20px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.footer__checkbox + label:hover::before {
+  border: 1px solid $white;
+}
+
+.footer__checkbox:checked + label:hover::before {
+  background-image: url("/images/check_white.svg");
 }

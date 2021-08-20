@@ -1,12 +1,17 @@
 .about__qoute-image {
-  margin-left: 525px;
+  margin-left: 545px;
 }
 
+@media screen and (max-width: 1417px) {
+  .about__qoute-image {
+    margin-left: 263px;
+  }
+}
 
 @media screen and (max-width: 767px) {
-  .about__qoute-image{
-     margin:0;
-     width: 280px;
-     margin-bottom: 20px;
+  .about__qoute-image {
+    margin: 0;
+    width: 280px;
+    margin-bottom: 20px;
   }
 }
