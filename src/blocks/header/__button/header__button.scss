@@ -11,12 +11,11 @@
   padding: 12px 24px;
   color: $white;
   position: relative;
+  cursor: pointer;
 }
 
-
-
 @media screen and (max-width: 767px) {
-  .header__button  {
+  .header__button {
     min-width: 280px;
     max-height: 44px;
     font-size: 14px;
