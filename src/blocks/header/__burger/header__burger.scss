@@ -3,9 +3,16 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 20px;
-  height: 20px;
+  width: 48px;
+  height: 48px;
   border: none;
   padding: 0;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__burger {
+    width: 24px;
+    height: 24px;
+  }
 }
