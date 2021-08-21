@@ -7,7 +7,7 @@
   max-width: 700px;
 }
 
-@media screen and (max-width: 1417px) {
+@media screen and (max-width: 1419px) {
   .about__qoute-text {
     max-width: 364px;
   }
@@ -17,5 +17,6 @@
   .about__qoute-text {
     font-size: 20px;
     line-height: 28px;
+    max-width: 280px;
   }
 }

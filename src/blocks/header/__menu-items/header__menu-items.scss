@@ -1,6 +1,6 @@
 .header__menu-items {
   padding: 245px 0 0 0;
-  list-style: none;
+  @include ul-reset;
 }
 
 @media screen and (max-width: 767px) {

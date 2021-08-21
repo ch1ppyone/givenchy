@@ -5,7 +5,6 @@ function swap(first_index, second_index) {
   const second_src = images[second_index].src;
   images[first_index].src = second_src;
   images[second_index].src = first_src;
-  console.log(first_src);
 }
 
 setInterval(function myMethod() {

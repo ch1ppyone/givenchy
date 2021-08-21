@@ -7,7 +7,7 @@
   gap: 0px 0px;
 }
 
-@media screen and (max-width: 1417px) {
+@media screen and (max-width: 1419px) {
   .looks__gallery {
     grid-template-columns: 243px 243px 243px;
     max-width: 729px;
@@ -18,7 +18,7 @@
 @media screen and (max-width: 767px) {
   .looks__gallery {
     grid-template-columns: 140px 140px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr ;
     max-width: 280px;
     margin: 20px auto 40px;
   }

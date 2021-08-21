@@ -11,7 +11,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1417px) {
+@media screen and (max-width: 1419px) {
   .looks__gallery-item {
     width: 243px;
     height: 302px;
@@ -31,15 +31,12 @@
   .looks__gallery-item {
     width: 140px;
     height: 174px;
-  }
-  .looks__gallery-item {
     display: block;
   }
 
-  .looks__gallery-item:nth-child(5n),
-  .looks__gallery-item:nth-child(6n),
-  .looks__gallery-item:nth-child(7n)
-   {
-    display: none;
+  .looks__gallery-item:nth-child(5n)
+  {
+    display: block;
   }
+
 }

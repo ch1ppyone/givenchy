@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="styles/style.css" />
     <title>Givenchy</title>
   </head>
-  <body>
-    <main class="page">
-      <header class="header">
+  <body class="page">
+    <header class="header">
+      <div class="header__menu-container">
         <div class="header__menu">
-          <div class="header__close-button"></div>
+          <button type="button" class="header__close-button"></button>
           <nav>
             <ul class="header__menu-items">
               <li class="header__menu-item">
@@ -26,35 +26,39 @@
             </ul>
           </nav>
         </div>
-        <div class="header__burger-container">
-          <div class="header__burger"></div>
-          <p class="header__burger-text">MENU</p>
-        </div>
-        <img src="images/header.png" alt="" class="header__image" />
-        <div class="header__title-container">
-          <h1 class="header__title">
-            GIVENCHY <br />
-            SPRING SUMMER 2021 <br />
-            BY MATTHEW M. WILLIAMS
-          </h1>
-          <button class="header__button">Subscribe to collection’s news</button>
-        </div>
-      </header>
+      </div>
+
+      <div class="header__burger-container">
+        <button type="button" class="header__burger"></button>
+        <p class="header__burger-text">MENU</p>
+      </div>
+      <img src="images/header.png" alt="" class="header__image" />
+      <div class="header__title-container">
+        <h1 class="header__title">
+          GIVENCHY <br />
+          SPRING SUMMER 2021 <br />
+          BY MATTHEW M. WILLIAMS
+        </h1>
+        <button class="header__button">Subscribe to collection’s news</button>
+      </div>
+    </header>
+    <main>
       <section class="about" id="about">
         <div class="about__description">
-          <h2 class="about__description-title">ABOUT</h2>
+          <h2 class="title">ABOUT</h2>
           <p class="about__description-subtitle">
             The Spring-Summer ‘21 collection explores Givenchy in the form of a
             stream of consciousness for Williams and is a ‘sampler’ of what is
             to come.
           </p>
         </div>
+
         <div class="about__articles">
-          <article class="about__qoute slide_left">
+          <article class="about__qoute slide_direction_left">
             <img
               src="images/about_1.png"
               alt=""
-              class="about__qoute-image about__qoute-image_min"
+              class="about__qoute-image about__qoute-image_size_min"
             />
             <div class="about__qoute-content">
               <p class="about__qoute-text">
@@ -66,7 +70,7 @@
               <p class="about__qoute-author">Matthew M. Williams.</p>
             </div>
           </article>
-          <article class="about__article slide_right">
+          <article class="about__article slide_direction_right">
             <img src="images/about_2.png" alt="" class="about__article-image" />
             <p class="about__article-text">
               Matthew M. Williams reveals his vision with help from an all-star
@@ -78,11 +82,11 @@
               powerful personal style.
             </p>
           </article>
-          <article class="about__qoute slide_left">
+          <article class="about__qoute slide_direction_left">
             <img
               src="images/about_3.png"
               alt=""
-              class="about__qoute-image about__qoute-image_max"
+              class="about__qoute-image about__qoute-image_size_max"
             />
             <div class="about__qoute-content">
               <p class="about__qoute-text">
@@ -96,7 +100,7 @@
         </div>
       </section>
       <section class="looks" id="looks">
-        <h2 class="looks__title">LOOKS</h2>
+        <h2 class="title">LOOKS</h2>
         <div class="looks__gallery">
           <img src="images/1.png" alt="photo" class="looks__gallery-item" />
           <img src="images/2.png" alt="photo" class="looks__gallery-item" />
@@ -114,42 +118,41 @@
           <img src="images/14.png" alt="photo" class="looks__gallery-item" />
         </div>
       </section>
-      <footer class="footer" id="footer">
-        <div class="footer__container">
-          <p class="footer__title">
-            Subscribe to the newsletterand be the first to know about new
-            collection’s drop date and news
-          </p>
-          <form action="#" method="post" class="footer__form">
-            <div class="footer__subscribe">
-              <input
-                type="text"
-                class="footer__input"
-                required
-                placeholder="Eneter your email  here"
-              />
-              <button class="footer__button" type="submit">Submit</button>
-            </div>
-            <div class="footer__agree">
-              <input
-                class="footer__checkbox"
-                type="checkbox"
-                id="subscribe"
-                name="subscribe"
-              />
-              <label class="footer__checkbox-label" for="subscribe"
-                >I consent to the processing of my data by GIVENCHY in
-                accordance with the conditions set forth in the Privacy
-                Policy</label
-              >
-            </div>
-          </form>
-          <p class="footer__copyright-text">
-            © 2021, Givenchy. Some rights reserved
-          </p>
-        </div>
-      </footer>
     </main>
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+        <p class="footer__title">
+          Subscribe to the newsletterand be the first to know about new
+          collection’s drop date and news
+        </p>
+        <form action="#" method="post" class="footer__form">
+          <div class="footer__subscribe">
+            <input
+              type="text"
+              class="footer__input"
+              required
+              placeholder="Eneter your email  here"
+            />
+            <button class="footer__button" type="submit">Submit</button>
+          </div>
+          <div class="footer__agree">
+            <input
+              class="footer__checkbox"
+              type="checkbox"
+              id="subscribe"
+              name="subscribe"
+            />
+            <label class="footer__checkbox-label" for="subscribe"
+              >I consent to the processing of my data by GIVENCHY in accordance
+              with the conditions set forth in the Privacy Policy</label
+            >
+          </div>
+        </form>
+        <p class="footer__copyright-text">
+          © 2021, Givenchy. Some rights reserved
+        </p>
+      </div>
+    </footer>
     <script src="js/header.js"></script>
     <script src="js/gallery.js"></script>
   </body>
