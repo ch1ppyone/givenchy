@@ -21,7 +21,7 @@
 .footer__checkbox:checked + label::before {
   width: 20px;
   height: 20px;
-  background-image: url("/images/check_black.svg");
+  background-image: url("../images/check_black.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,5 +32,5 @@
 }
 
 .footer__checkbox:checked + label:hover::before {
-  background-image: url("/images/check_white.svg");
+  background-image: url("../images/check_white.svg");
 }
